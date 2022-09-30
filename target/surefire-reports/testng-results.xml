@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T15:15:51Z" name="Suite" finished-at="2022-09-30T15:16:02Z" duration-ms="10768">
+    <groups>
+      <group name="init">
+        <method signature="TestScript.initialize()[pri:0, instance:com.pay.workflows.regression@68e5eea7]" name="initialize" class="com.pay.common.framework.test.TestScript"/>
+      </group> <!-- init -->
+    </groups>
+    <test started-at="2022-09-30T15:15:51Z" name="Test" finished-at="2022-09-30T15:16:02Z" duration-ms="10768">
+      <class name="com.pay.workflows.regression">
+        <test-method signature="initialize()[pri:0, instance:com.pay.workflows.regression@68e5eea7]" started-at="2022-09-30T15:15:51Z" name="initialize" finished-at="2022-09-30T15:15:51Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="user()[pri:1, instance:com.pay.workflows.regression@68e5eea7]" started-at="2022-09-30T15:15:51Z" name="user" finished-at="2022-09-30T15:15:54Z" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user -->
+        <test-method signature="update_user()[pri:2, instance:com.pay.workflows.regression@68e5eea7]" started-at="2022-09-30T15:15:54Z" name="update_user" finished-at="2022-09-30T15:15:56Z" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_user -->
+        <test-method signature="get_user_details()[pri:3, instance:com.pay.workflows.regression@68e5eea7]" started-at="2022-09-30T15:15:56Z" name="get_user_details" finished-at="2022-09-30T15:15:58Z" duration-ms="1904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_user_details -->
+        <test-method signature="user_login()[pri:4, instance:com.pay.workflows.regression@68e5eea7]" started-at="2022-09-30T15:15:58Z" name="user_login" finished-at="2022-09-30T15:16:00Z" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_login -->
+        <test-method signature="user_logout()[pri:5, instance:com.pay.workflows.regression@68e5eea7]" started-at="2022-09-30T15:16:00Z" name="user_logout" finished-at="2022-09-30T15:16:02Z" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_logout -->
+      </class> <!-- com.pay.workflows.regression -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
